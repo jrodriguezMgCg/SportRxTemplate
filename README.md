@@ -152,9 +152,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 ### Configuration
-_The configuration section (required) is necessary even when little configuration is required. Use this section to list special notes about the configuration of this module – including but not limited to permissions. This section is particularly important if the module requires additional configuration outside of the Drupal UI.
-
-If the module has little or no configuration, you should use this space to explain how enabling/disabling the module will affect the site._
+_The configuration section (required) is necessary even when little configuration is required. Use this section to list special notes about the configuration of this module – including but not limited to permissions. This section is particularly important if the module requires additional configuration outside of the Drupal UI.If the module has little or no configuration, you should use this space to explain how enabling/disabling the module will affect the site._
 
 
 * Configure the user permissions in Administration » People » Permissions:
