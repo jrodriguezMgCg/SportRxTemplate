@@ -179,6 +179,16 @@ _The configuration section (required) is necessary even when little configuratio
 
  * To prevent administrative menu items from appearing twice, you may hide the
    "Management" menu block.
+   
+  OR 
+  
+  
+### Configuration
+
+The module has no menu or modifiable settings. There is no configuration. When
+enabled, the module will prevent the links from appearing. To get the links
+back, disable the module and clear caches.
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
