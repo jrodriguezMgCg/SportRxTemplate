@@ -224,6 +224,29 @@ _Steps for deployment ._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+
+### Troubleshooting 
+_These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale)._
+
+ * If the menu does not display, check the following:
+
+   - Are the "Access administration menu" and "Use the administration pages
+     and help" permissions enabled for the appropriate roles?
+
+   - Does html.tpl.php of your theme output the $page_bottom variable?
+
+FAQ
+---
+
+Q: I enabled "Aggregate and compress CSS files", but admin_menu.css is still
+   there. Is this normal?
+
+A: Yes, this is the intended behavior. the administration menu module only loads
+   its stylesheet as needed (i.e., on page requests by logged-on, administrative
+   users).
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
