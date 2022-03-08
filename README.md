@@ -151,7 +151,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Configuration
+## Configuration
 _The configuration section (required) is necessary even when little configuration is required. Use this section to list special notes about the configuration of this module – including but not limited to permissions. This section is particularly important if the module requires additional configuration outside of the Drupal UI.If the module has little or no configuration, you should use this space to explain how enabling/disabling the module will affect the site._
 
 
@@ -183,7 +183,7 @@ _The configuration section (required) is necessary even when little configuratio
   OR 
   
   
-### Configuration
+## Configuration
 
 The module has no menu or modifiable settings. There is no configuration. When
 enabled, the module will prevent the links from appearing. To get the links
@@ -217,7 +217,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- Deployment -->
-### Deployment 
+## Deployment 
 
 _Steps for deployment ._
 
@@ -256,7 +256,7 @@ If everything has been set up properly, this command will create the following a
 
 
 
-### Troubleshooting 
+## Troubleshooting 
 _These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale)._
 
  * If the menu does not display, check the following:
