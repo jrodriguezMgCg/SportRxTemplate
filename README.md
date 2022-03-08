@@ -221,6 +221,35 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 _Steps for deployment ._
 
+In order to deploy with this project , you need to perform some steps:
+
+Create a new hosts file. Check ansible inventory documentation if you need help. This file will identify all the hosts where to deploy to. For multistage environments check Multistage environments.
+Create a new playbook for deploying your app, for example, deploy.yml
+Set up role variables (see Role Variables)
+Include the ansistrano.deploy role as part of a play
+Run the deployment playbook
+ansible-playbook -i hosts deploy.yml
+
+If everything has been set up properly, this command will create the following approximate directory structure on your server. Check how the hosts folder structure would look like after one, two and three deployments.
+
+-- /var/www/my-app.com
+|-- current -> /var/www/my-app.com/releases/20100509145325
+|-- releases
+|   |-- 20100509145325
+|-- shared
+-- /var/www/my-app.com
+|-- current -> /var/www/my-app.com/releases/20100509150741
+|-- releases
+|   |-- 20100509150741
+|   |-- 20100509145325
+|-- shared
+-- /var/www/my-app.com
+|-- current -> /var/www/my-app.com/releases/20100512131539
+|-- releases
+|   |-- 20100512131539
+|   |-- 20100509150741
+|   |-- 20100509145325
+|-- shared
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
