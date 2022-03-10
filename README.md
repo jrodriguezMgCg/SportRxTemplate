@@ -213,19 +213,6 @@ If everything has been set up properly, this command will create the following a
 
 
 
-
-## Troubleshooting 
-_These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale)._
-
- * If the menu does not display, check the following:
-
-   - Are the "Access administration menu" and "Use the administration pages
-     and help" permissions enabled for the appropriate roles?
-
-   - Does html.tpl.php of your theme output the $page_bottom variable?
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -243,6 +230,20 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
+<!-- TROUBLESHOOTING -->
+
+## Troubleshooting 
+_These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale)._
+
+ * If the menu does not display, check the following:
+
+   - Are the "Access administration menu" and "Use the administration pages
+     and help" permissions enabled for the appropriate roles?
+
+   - Does html.tpl.php of your theme output the $page_bottom variable?
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
